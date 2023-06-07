@@ -23,6 +23,15 @@ html, body {
   background: linear-gradient(230deg, rgb(182, 88, 214) 10%, rgb(74, 171, 224) 80%);
 }
 
+/* Header */
+
+.header {
+  font-family: "Caveat", sans-serif;
+  font-weight: 700;
+  color: #d2ef6b;
+  font-size: clamp(0.6rem, -0.8rem + 3vw, 1.2rem);
+}
+
 /* Quotes */
 
 #quote-box {

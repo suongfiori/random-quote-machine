@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react'
 import './App.css'
+import Header from './components/Header'
 import QuoteBox from './components/QuoteBox'
 import Footer from './components/Footer'
 
@@ -33,6 +34,7 @@ function App() {
   
   return (
     <div className='main'>
+      <Header />
       <QuoteBox 
         quote={quote}
         getQuote={getQuote}
