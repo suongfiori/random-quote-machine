@@ -10,9 +10,10 @@ const QuoteBox = (props) => {
 
   return (
     <div id="quote-box">
-      <h3 id="text" className='quote'>
-        {props.quote.text}</h3>
-      <span id="author" className='author'>- {props.quote.author}</span>
+      <div id="text" className='text'>
+        <h3 className='quote'>{props.quote.text}</h3>
+        <span id="author" className='author'>- {props.quote.author}</span>
+      </div>
       <div className='tweet'>
         <button id="new-quote" onClick={props.getQuote} className='btn'>New quote</button>
         <a 

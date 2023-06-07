@@ -32,6 +32,10 @@ html, body {
   background: #E5E5E5;
 }
 
+.text {
+  height: 80%;
+}
+
 .quote {
   width: 100%;
   place-content: center;
@@ -40,12 +44,14 @@ html, body {
 
 .author {
   font-size: 0.8rem;
+  letter-spacing: 1.5px;
 }
 
 .btn {
   background: rgb(129, 166, 240);
 	border: none;
   font-size: .9rem;
+  font-weight: 700;
 }
 
 .tweet {
