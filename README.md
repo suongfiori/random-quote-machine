@@ -1,7 +1,8 @@
-## RANDOM QUOTE MACHINE
+## Random Developer Quotes App
 
 [Live Deployment Link](https://random-quote-machine-lac-ten.vercel.app/)
 
+Boost your coding mojo with an eclectic mix of quotes that'll brighten your [dev] day!
 
 <!-- The project implements a simple game logic where the player needs to roll the dice until all of them have the same value -->
 
@@ -11,6 +12,10 @@
  <br>
  
 ### Features
+* Random Quotes: Get a fresh developer quote every time you visit the app.  
+
+* Responsive Design: The app is built with responsiveness in mind.
+
 Desktop view <br>
 
 <img SRC="https://raw.githubusercontent.com/suongfiori/random-quote-machine/main/src/assets/desktop.png" alt="desktop view" width="70%"> <br><br>
