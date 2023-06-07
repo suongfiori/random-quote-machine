@@ -13,7 +13,7 @@
 ### Features
 Desktop view <br>
 
-<img SRC="https://raw.githubusercontent.com/suongfiori/random-quote-machine/main/src/assets/desktop.png" alt="desktop view" width="80%"> <br><br>
+<img SRC="https://raw.githubusercontent.com/suongfiori/random-quote-machine/main/src/assets/desktop.png" alt="desktop view" width="70%"> <br><br>
 Mobile view <br>
 
 <img src="https://raw.githubusercontent.com/suongfiori/random-quote-machine/main/src/assets/mobile.png" alt="mobile view" width="25%">
