@@ -14,18 +14,20 @@ html, body {
 }
 
 .main {
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(230deg, rgb(182, 88, 214) 10%, rgb(74, 171, 224) 80%);
 }
 
 /* Header */
 
 .header {
+  text-align: center;
   font-family: "Caveat", sans-serif;
   font-weight: 700;
   color: #d2ef6b;
@@ -47,8 +49,6 @@ html, body {
 }
 
 .quote {
-  width: 100%;
-  place-content: center;
   font-size: clamp(.6rem , -0.875rem + 8.333vw, 1rem);
 }
 
@@ -83,11 +83,11 @@ html, body {
 @media only screen and (min-width: 700px) {
   .main {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
   }
   #quote-box {
-    width: 50%;
-    height: 50%;
+    width: 600px;
+    height: 300px;
     padding: 3rem;
   }
   .text {
@@ -98,7 +98,7 @@ html, body {
     margin-top: 3rem;
   }
   .tweet {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
