@@ -46,7 +46,7 @@ function App() {
       <GithubCorner
           targetURL="https://github.com/suongfiori/random-quote-machine"
           color="#fff"
-          backgroundColor="rgb(134, 207, 247)"
+          backgroundColor="rgb(74, 171, 224)"
           position="right"
           size="100px"
           ariaLabel="View source on Github"
