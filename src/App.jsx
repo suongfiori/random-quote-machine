@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header'
 import QuoteBox from './components/QuoteBox'
 import Footer from './components/Footer'
+import GithubCorner from './components/GithubCorner/GithubCorner'
 
 function App() {
  
@@ -34,12 +35,22 @@ function App() {
   
   return (
     <div className='main'>
-      <Header />
+      <Header 
+        devQuotesURL={devQuotesURL}
+      />
       <QuoteBox 
         quote={quote}
         getQuote={getQuote}
       />
       <Footer />
+      <GithubCorner
+          targetURL="https://github.com/suongfiori/random-quote-machine"
+          color="#fff"
+          backgroundColor="rgb(134, 207, 247)"
+          position="right"
+          size="100px"
+          ariaLabel="View source on Github"
+        />
     </div>
   )
 }
