@@ -20,7 +20,7 @@ html, body {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   background: linear-gradient(230deg, rgb(182, 88, 214) 10%, rgb(74, 171, 224) 80%);
   background-color: rgb(134, 207, 247)
 }
