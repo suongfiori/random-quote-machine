@@ -28,7 +28,7 @@ Programming Quotes API: 'https://raw.githubusercontent.com/skolakoda/programming
 
 Desktop view <br>
 
-<img SRC="https://raw.githubusercontent.com/suongfiori/random-quote-machine/main/src/assets/desktop.png" alt="desktop view" width="70%"> <br><br>
+<img src="https://raw.githubusercontent.com/suongfiori/random-quote-machine/main/src/assets/desktop.png" alt="desktop view" width="70%"> <br><br>
 Mobile view <br>
 
 <img src="https://raw.githubusercontent.com/suongfiori/random-quote-machine/a544a1edc4076946f974b6d123f1c34259e34913/src/assets/mobile.png" alt="mobile view" width="25%">
