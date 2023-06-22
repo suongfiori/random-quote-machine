@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/suongfiori/random-quote-machine/main/public/quotes.png" width="20%">
+<img src="https://raw.githubusercontent.com/suongfiori/random-quote-machine/main/public/quotes.png" width="5%">
 </p>
 
 # Random Developer Quotes
@@ -24,10 +24,55 @@ Programming Quotes API: 'https://raw.githubusercontent.com/skolakoda/programming
 
 * Responsive Design: The app is built with responsiveness in mind.
 
+* Implementation of React Helmet: Dynamically retrieve page titles, meta descriptions, and other meta tags.
+
 Desktop view <br>
 
 <img SRC="https://raw.githubusercontent.com/suongfiori/random-quote-machine/main/src/assets/desktop.png" alt="desktop view" width="70%"> <br><br>
 Mobile view <br>
 
 <img src="https://raw.githubusercontent.com/suongfiori/random-quote-machine/main/src/assets/mobile.png" alt="mobile view" width="25%">
+
+<h2>Implementation of React Helmet</h2>
+I want to try this cool library called React Helmet in my app! It helps me manage and update the metadata, including the meta tags, for each page. With React Helmet, I can dynamically control the information that search engines and social media platforms see.
+
+<h4>Why React Helmet?</h4>
+React Helmet makes it easy to optimize my app for search engines and improve click-through rates in search results. By using React Helmet, I can update meta tags, including the meta description, which plays a vital role in SEO and enticing users to click on my app in search results.
+
+<h4>How to Install</h4>
+Here's how to get started with React Helmet:
+
+First, open up your project's terminal.
+
+Then, run this command:
+```npm
+npm install react-helmet
+```
+
+React Helmet will be installed as a dependency in your project.
+
+Usage Example:
+
+```jsx
+
+import React from 'react';
+import { Helmet } from 'react-helmet';
+
+function ExamplePage() {
+  return (
+    <>
+      <Helmet>
+        <title>Example Page</title>
+        <meta name="description" content="This is an example meta description." />
+        {/* You can add more meta tags here */}
+      </Helmet>
+      {/* Rest of my component */}
+    </>
+  );
+}
+
+export default ExamplePage;
+```
+
+By using the <Helmet> component, I can easily set the page title, meta description, and other meta tags dynamically.
 
