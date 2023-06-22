@@ -73,10 +73,35 @@ html, body {
 }
 
 .btn {
-  background: rgb(129, 166, 240);
-	border: none;
-  font-size: .9rem;
   font-weight: 700;
+  color: #fff;
+  background: linear-gradient(230deg, rgb(182, 88, 214) 10%, rgb(74, 171, 224) 80%);
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.btn:active {
+  transform: scale(0.9);
+}
+.btn span {
+  z-index: 1;
+  position: relative;
+}
+.btn:hover {
+  color: #121212; 
+}
+.btn::before {
+  content: "";
+  background: #fff;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover::before {
+  width: 100%;
 }
 
 .tweet {
@@ -85,7 +110,6 @@ html, body {
   gap: 2rem;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
   margin-bottom: 5rem;
 }
 .quotation-mark {

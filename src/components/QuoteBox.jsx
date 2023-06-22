@@ -25,7 +25,7 @@ const QuoteBox = ({ quote, getQuote }) => {
         <p id="author" className='author'>- {quote.author}</p>
       </div>
       <div className='tweet'>
-        <button id="new-quote" onClick={getQuote} className='btn'>New quote</button>
+        <button id="new-quote" onClick={getQuote} className='btn'><span>New quote</span></button>
         <a 
             id="tweet-quote" 
             href={tweetURL + encodedQuote} 
