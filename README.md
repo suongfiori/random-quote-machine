@@ -51,6 +51,12 @@ npm install react-helmet
 
 React Helmet will be installed as a dependency in your project.
 
+Next steps: 
+
+* Import React Helmet to your component file.
+  
+* Set the Meta Description: Within the component's render method or functional component, use the React Helmet component to set the meta description.
+
 Usage Example:
 
 ```jsx
