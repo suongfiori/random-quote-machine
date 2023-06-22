@@ -1,23 +1,31 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
+import { Helmet } from 'react-helmet';
 
 
-const QuoteBox = (props) => {
+const QuoteBox = ({ quote, getQuote }) => {
 
   const tweetURL = "https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text="
-  const encodedQuote = encodeURIComponent(`"${props.quote.text}" - ${props.quote.author}`);
+  const encodedQuote = encodeURIComponent(`"${quote.text}" - ${quote.author}`);
 
   return (
+  <>
+
+  <Helmet>
+    <title>Random Quotes Generator - Quote Box</title>
+    <meta name="description" content={`"${quote.text}" - ${quote.author}`} />
+  </Helmet>
+
     <div id="quote-box">
       <div id="text" className='text'>
         <h3 className='quote'>
-          {props.quote.text}
+          {quote.text}
         </h3>
-        <p id="author" className='author'>- {props.quote.author}</p>
+        <p id="author" className='author'>- {quote.author}</p>
       </div>
       <div className='tweet'>
-        <button id="new-quote" onClick={props.getQuote} className='btn'>New quote</button>
+        <button id="new-quote" onClick={getQuote} className='btn'>New quote</button>
         <a 
             id="tweet-quote" 
             href={tweetURL + encodedQuote} 
@@ -28,6 +36,7 @@ const QuoteBox = (props) => {
         </a>
       </div>
     </div>
+    </>
   )
 }
 
